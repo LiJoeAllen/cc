@@ -11,6 +11,7 @@ module com.example.cc {
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
     requires annotations;
+    requires lombok;
 
     opens com.example.cc to javafx.fxml;
     exports com.example.cc;

@@ -53,6 +53,8 @@ dependencies {
     implementation 'eu.hansolo.fx:heatmap:17.0.12'
     implementation 'eu.hansolo.fx:countries:17.0.23'
 
+    implementation 'org.projectlombok:lombok:1.18.24'
+
     implementation('eu.hansolo:tilesfx:17.1.15') {
         exclude(group: 'org.openjfx')
     }
